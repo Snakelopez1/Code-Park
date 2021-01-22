@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrar m&oacute;dulo</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="shortcut icon" href="img/logo.png">
+    </head>
+
+    <body>
+        <div id="bg"></div>
+        <section id="barraSuperior">
+            <ul class="nav-bar-list">
+                <li class="nav-bar-list-large large">
+                    <a href="Loggeado.html">
+                        <img src="img/logo.png" class="icon-logo"> Code Park
+                    </a>
+                </li>
+                <li class="nav-bar-list-item"><a href="Loggeado.html#top">Inicio</a></li>
+                <li class="nav-bar-list-item"><a href="Loggeado.html#about">Sobre nosotros</a></li>
+                <li class="nav-bar-list-item"><a href="Loggeado.html#courses">Cursos</a></li>
+                <li class="nav-bar-list-item"><a href="mapa_curricular.html">Mapa curricular</a></li>
+                <li class="nav-bar-list-item-right"><a href="index.html">Cerrar sesi&oacute;n</a></li>
+                <li class="nav-bar-list-item-right"><a href="perfil.html">Perfil</a></li>
+        </section>
+        <div id="backg">
+            <h2>Registro de usuario a un m&oacute;dulo</h2>
+            <h3>Advertencia, solo puedes inscribirte en un curso y a su vez, a un modulo del mismo.</h3>
+            <h3>Para cursar modulos intermedios y avanzados tendras que haber acreditado el curso anterior a &eacute;l.</h3>
+            <fieldset>
+                <p>
+                    <label>Lenguaje: </label>
+                    <select id = "List">
+                    <option value = "1">C</option>
+                    <option value = "2">Java</option>
+                    <option value = "3">Python</option>
+                    <option value = "4">Web</option>
+                    <option value = "5">PHP</option>
+                    </select>
+                </p>
+                <br>
+                <p>
+                    <label>M&oacute;dulo: </label>
+                    <select id = "List">
+                        <option value = "1">Curso B&aacute;sico</option>
+                        <option value = "2">Curso Intermedio</option>
+                        <option value = "3">Curso Avanzado</option>
+                    </select>
+                </p>
+                <br>
+                <p>
+                    <label>Confirma tu contraseña: </label>
+                    <input type="password" placeholder="Contraseña" />
+                </p>
+                <br><br><br>
+                <p>Para entrar al programa debes aceptar nuestros términos del servicio</p>
+                <p>
+                    <label><input type="checkbox" name="cb-terminosservicio" required> Acepto los términos y condiciones para inscribirme a este m&oacute;dulo.</label><br>
+                </p>
+                <button class="boton">Registrame</button>
+            </fieldset>
+        </div>
+        <script src="js/carrusel.js"></script>
+    </body>
+
+</html>
